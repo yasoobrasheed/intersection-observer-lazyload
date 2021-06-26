@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import { React, useState } from "react";
 
 function LazyLoader() {
   return (
     <div>
-        <h1>
-            This is a Lazy Loader component
-        </h1>
+      <h1>
+        This is a Lazy Loader component
+      </h1>
     </div>
   );
 }
