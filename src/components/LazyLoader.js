@@ -1,11 +1,20 @@
-import { React, useState } from "react";
+import React, {useState, useEffect} from "react";
 
 function LazyLoader() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    document.title = `You clicked ${count} times`;
+  });
+
   return (
     <div>
       <h1>
-        This is a Lazy Loader component
+        { count }
       </h1>
+      <button onClick={() => setCount(count + 1)}>
+        Increment
+      </button>
     </div>
   );
 }
