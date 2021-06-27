@@ -1,10 +1,10 @@
 import React from "react";
-import LazyLoader from "./components/LazyLoader";
+import LazyLoadComponent from "./components/LazyLoadComponent";
 
 function App() {
   return (
     <div>
-      <LazyLoader />
+      <LazyLoadComponent />
     </div>
   );
 }
