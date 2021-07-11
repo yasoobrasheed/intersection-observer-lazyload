@@ -21,6 +21,7 @@ module.exports = {
     "semi": ["error", "always"],
     "quotes": ["error", "double"],
     "indent": ["error", 2],
-    "no-multi-spaces": ["error"]
+    "no-multi-spaces": ["error"],
+    "react/prop-types": "off"
   }
 };
